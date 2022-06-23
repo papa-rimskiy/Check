@@ -1,23 +1,23 @@
 li {
   list-style-type: none;
 }
-  
+
 ul {
   margin-left: 0;
   padding-left: 0;
 }
 
-h1, h6, h4 {
+h1,
+h6,
+h4 {
   margin-block-start: 0px;
   margin-block-end: 0px;
 }
 
-
-
 body {
-  font-family: 'Epilogue';
+  font-family: "Epilogue";
   color: #ffffff;
-  margin: 0px 
+  margin: 0px;
 }
 
 button {
@@ -27,14 +27,15 @@ button {
   cursor: pointer;
 }
 
-
 .header {
-  width: 100%;
   height: 75px;
   background-color: #28293e;
   display: flex;
   padding: 0px 120px;
-  
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .header__logo {
@@ -43,13 +44,13 @@ button {
   align-items: center;
 }
 
-.header__logo-img{  
-  background-image: url(../public/logo192.png);
-  width: 50px;
-  height: 50px;
+.header__logo-img {
+  background-image: url(../public/images/logo.png);
+  width: 45px;
+  height: 46px;
   text-align: center;
   background-size: 100% 100%;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
 }
 
 .header__logo-title {
@@ -59,19 +60,19 @@ button {
   padding-left: 15px;
 }
 
-.menu{
+.menu {
   display: flex;
   align-items: center;
   padding-left: 180px;
 }
 
-.menu__list{
+.menu__list {
   display: flex;
   width: 513px;
   justify-content: space-between;
 }
 
-.menu__list-link{
+.menu__list-link {
   font-size: 16px;
   line-height: 32px;
   font-weight: 400;
@@ -89,7 +90,7 @@ button {
   padding-left: 190px;
 }
 
-.header__concat-btn{
+.header__concat-btn {
   width: 140px;
   height: 50px;
   border-radius: 6px;
@@ -108,7 +109,7 @@ button {
   justify-content: center;
 }
 
-.description__title{
+.description__title {
   font-size: 72px;
   letter-spacing: -2px;
   line-height: 80px;
@@ -142,7 +143,7 @@ button {
   align-items: center;
 }
 
-.filter__list{
+.filter__list {
   display: flex;
   width: 513px;
   justify-content: space-between;
@@ -151,6 +152,7 @@ button {
   line-height: 32px;
   color: #391400;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .filter__list-item-special {
@@ -165,17 +167,33 @@ button {
   justify-content: center;
   text-align: center;
   align-items: center;
+  margin: auto;
+  justify-content: center;
 }
 
 .contents__area-icon {
   width: 370px;
   height: 416px;
   background-size: 100% 100%;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   position: relative;
   border-radius: 6px;
   margin-left: 30px;
   margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.contents__area-icon-special {
+  width: 370px;
+  height: 416px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 6px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  border: 7px solid #4fe24a;
+  cursor: pointer;
 }
 
 .contents__area-icon-category {
@@ -204,7 +222,42 @@ button {
   margin-top: 28px;
   position: absolute;
   left: 48px;
-  top: 288px
+  top: 288px;
+}
+
+.contents__area-icon-delete {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  color: black;
+  background-color: rgb(247, 151, 151);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 347px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+.contents__area-icon-delete-special {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  color: black;
+  background-color: rgb(247, 151, 151);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 347px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+  display: block;
 }
 
 .circle {
@@ -213,20 +266,20 @@ button {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  border: 10px solid rgb(2, 2, 2,.1);
+  border: 10px solid rgb(2, 2, 2, 0.1);
   border-top: 10px solid rgb(0, 0, 0);
   animation: animate 2s infinite linear;
 }
 
 @keyframes animate {
   0% {
-    transform:  rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
   }
 }
-  
+
 .content__add {
   text-align: center;
   padding-bottom: 185px;
@@ -236,8 +289,28 @@ button {
   width: 170px;
   height: 48px;
   border-radius: 6px;
-  filter: drop-shadow(0px 3px 5px rgba(57,20,0,0.08));
+  filter: drop-shadow(0px 3px 5px rgba(57, 20, 0, 0.08));
   background-color: #ffffff;
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 1040px) {
+  .header {
+    padding: 0px 23px;
+  }
+  .menu,
+  .header__concat {
+    display: none;
+  }
+  .description__title {
+    font-size: 56px;
+    letter-spacing: -1px;
+    line-height: 64px;
+  }
+  .descriprion__agency {
+    width: 329px;
+    height: 93px;
+    font-size: 16px;
+    line-height: 32px;
+  }
+} 
