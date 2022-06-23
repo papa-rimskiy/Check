@@ -1,13 +1,243 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+li {
+  list-style-type: none;
+}
+  
+ul {
+  margin-left: 0;
+  padding-left: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h6, h4 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
+
+
+
+body {
+  font-family: 'Epilogue';
+  color: #ffffff;
+  margin: 0px 
+}
+
+button {
+  outline: none;
+  border-width: 0px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+
+.header {
+  width: 100%;
+  height: 75px;
+  background-color: #28293e;
+  display: flex;
+  padding: 0px 120px;
+  
+}
+
+.header__logo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.header__logo-img{  
+  background-image: url(../public/logo192.png);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;  
+}
+
+.header__logo-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  padding-left: 15px;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  padding-left: 180px;
+}
+
+.menu__list{
+  display: flex;
+  width: 513px;
+  justify-content: space-between;
+}
+
+.menu__list-link{
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+  padding-left: 14px;
+  padding-right: 14px;
+  color: #ffffff;
+}
+
+.header__concat {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding-left: 190px;
+}
+
+.header__concat-btn{
+  width: 140px;
+  height: 50px;
+  border-radius: 6px;
+  background-color: #28293e;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.description {
+  width: 100%;
+  height: 325px;
+  background-color: #28293e;
+  align-items: center;
+  justify-content: center;
+}
+
+.description__title{
+  font-size: 72px;
+  letter-spacing: -2px;
+  line-height: 80px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.descriprion__agency {
+  width: 570px;
+  padding-top: 50px;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  background-color: #fdf0e9;
+  border: 1px solid #90e149;
+}
+
+.filter {
+  padding-top: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter__list{
+  display: flex;
+  width: 513px;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 16px;
+  line-height: 32px;
+  color: #391400;
+  font-weight: 400;
+}
+
+.filter__list-item-special {
+  color: #16cd53;
+}
+
+.content__area {
+  padding: 78px 120px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1650px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.contents__area-icon {
+  width: 370px;
+  height: 416px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;  
+  position: relative;
+  border-radius: 6px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.contents__area-icon-category {
+  width: 84px;
+  height: 38px;
+  background-color: #ffffff;
+  border-radius: 19px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #391400;
+  font-weight: 400;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 256px;
+  left: 48px;
+}
+
+.contents__area-icon-name {
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  font-weight: 800;
+  margin-top: 28px;
+  position: absolute;
+  left: 48px;
+  top: 288px
+}
+
+.circle {
+  margin: auto;
+  margin-top: 100px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 10px solid rgb(2, 2, 2,.1);
+  border-top: 10px solid rgb(0, 0, 0);
+  animation: animate 2s infinite linear;
+}
+
+@keyframes animate {
+  0% {
+    transform:  rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+  
+.content__add {
+  text-align: center;
+  padding-bottom: 185px;
+}
+
+.content__add-btn {
+  width: 170px;
+  height: 48px;
+  border-radius: 6px;
+  filter: drop-shadow(0px 3px 5px rgba(57,20,0,0.08));
+  background-color: #ffffff;
+  text-transform: uppercase;
+}
+
