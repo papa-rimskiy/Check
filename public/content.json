@@ -1,130 +1,58 @@
 {
   "content": [
     {
-      "id": 0,
+      "id": 1,
       "name": "SOFA",
       "url": "/images/Sofa.bmp",
-      "category": "Design",
-      "choise": false
-    },
-    {
-      "id": 1,
-      "name": "KeyBoard",
-      "url": "/images/KeyBoard.bmp",
-      "category": "Branding",
-      "choise": false
+      "category": "Design"
     },
     {
       "id": 2,
-      "name": "Work Media",
-      "url": "/images/WorkMedia.bmp",
-      "category": "Illustration",
-      "choise": false
+      "name": "KeyBoard",
+      "url": "/images/KeyBoard.bmp",
+      "category": "Branding"
     },
     {
       "id": 3,
-      "name": "DDDone",
-      "url": "/images/DDDone.bmp",
-      "category": "Motion",
-      "choise": false
+      "name": "Work Media",
+      "url": "/images/WorkMedia.bmp",
+      "category": "Illustration"
     },
     {
       "id": 4,
-      "name": "Abstract",
-      "url": "/images/Abstract.bmp",
-      "category": "Design",
-      "choise": false
+      "name": "DDDone",
+      "url": "/images/DDDone.bmp",
+      "category": "Motion"
     },
     {
       "id": 5,
-      "name": "HandP",
-      "url": "/images/HandP.bmp",
-      "category": "Branding",
-      "choise": false
+      "name": "Abstract",
+      "url": "/images/Abstract.bmp",
+      "category": "Design"
     },
     {
       "id": 6,
-      "name": "Architect",
-      "url": "/images/Arch.bmp",
-      "category": "Motion",
-      "choise": false
+      "name": "HandP",
+      "url": "/images/HandP.bmp",
+      "category": "Branding"
     },
     {
       "id": 7,
-      "name": "CalC",
-      "url": "/images/Calc.bmp",
-      "category": "Design",
-      "choise": false
+      "name": "Architect",
+      "url": "/images/Arch.bmp",
+      "category": "Motion"
     },
     {
       "id": 8,
-      "name": "Sport",
-      "url": "/images/Sport.bmp",
-      "category": "Branding",
-      "choise": false
+      "name": "CalC",
+      "url": "/images/Calc.bmp",
+      "category": "Design"
     },
     {
       "id": 9,
-      "name": "SOFA2",
-      "url": "/images/Sofa.bmp",
-      "category": "Design",
-      "choise": false
-    },
-    {
-      "id": 10,
-      "name": "KeyBoard2",
-      "url": "/images/KeyBoard.bmp",
-      "category": "Branding",
-      "choise": false
-    },
-    {
-      "id": 11,
-      "name": "Work Media2",
-      "url": "/images/WorkMedia.bmp",
-      "category": "Illustration",
-      "choise": false
-    },
-    {
-      "id": 12,
-      "name": "DDDone2",
-      "url": "/images/DDDone.bmp",
-      "category": "Motion",
-      "choise": false
-    },
-    {
-      "id": 13,
-      "name": "Abstract2",
-      "url": "/images/Abstract.bmp",
-      "category": "Design",
-      "choise": false
-    },
-    {
-      "id": 14,
-      "name": "HandP2",
-      "url": "/images/HandP.bmp",
-      "category": "Branding",
-      "choise": false
-    },
-    {
-      "id": 15,
-      "name": "Architect2",
-      "url": "/images/Arch.bmp",
-      "category": "Motion",
-      "choise": false
-    },
-    {
-      "id": 16,
-      "name": "CalC2",
-      "url": "/images/Calc.bmp",
-      "category": "Design",
-      "choise": false
-    },
-    {
-      "id": 17,
-      "name": "Sport2",
+      "name": "Sport",
       "url": "/images/Sport.bmp",
-      "category": "Branding",
-      "choise": false
+      "category": "Branding"
     }
   ]
 }
